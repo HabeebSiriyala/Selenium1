@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49854" started-at="2018-04-27T06:48:01Z" finished-at="2018-04-27T06:48:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49854" started-at="2018-04-27T06:48:01Z" finished-at="2018-04-27T06:48:51Z">
+      <class name="TestNG11.CreateUser">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:TestNG11.CreateUser@11053e1]" name="setUp" is-config="true" duration-ms="49589" started-at="2018-04-27T06:48:01Z" finished-at="2018-04-27T06:48:50Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+dUpdates":1,"skinnable":true,"size":21152,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"50.0.1","maxVersion":"50.0.1"}],"targetPlatforms":[],"seen":true}
+1524811686375addons.xpiDEBUGgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1524811686378DeferredSave.extensions.jsonDEBUGSave changes
+1524811686379addons.xpiDEBUGUpdating database with changes to installed add-ons
+1524811686379addons.xpi-utilsDEBUGUpdating add-on states
+1524811686381addons.xpi-utilsDEBUGWriting add-ons list
+1524811686388addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1524811686390addons.xpiDEBUGCalling bootstrap method startup on aushelper@mozilla.org version 1.0
+1524811686393addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1524811686395addons.xpiDEBUGCalling bootstrap method startup on e10srollout@mozilla.org version 1.5
+1524811686396addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1524811686399addons.xpiDEBUGCalling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1524811686402addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1524811686403addons.xpiDEBUGCalling bootstrap method startup on webcompat@mozilla.org version 1.0
+1524811686409addons.managerDEBUGRegistering shutdown blocker for XPIProvider
+1524811686413addons.managerDEBUGProvider finished startup: XPIProvider
+1524811686415addons.managerDEBUGStarting provider: LightweightThemeManager
+1524811686416addons.managerDEBUGRegistering shutdown blocker for LightweightThemeManager
+1524811686417addons.managerDEBUGProvider finished startup: LightweightThemeManager
+1524811686419addons.managerDEBUGStarting provider: GMPProvider
+1524811686444addons.managerDEBUGRegistering shutdown blocker for GMPProvider
+1524811686445addons.managerDEBUGProvider finished startup: GMPProvider
+1524811686446addons.managerDEBUGStarting provider: PluginProvider
+1524811686450addons.managerDEBUGRegistering shutdown blocker for PluginProvider
+1524811686451addons.managerDEBUGProvider finished startup: PluginProvider
+1524811686453addons.managerDEBUGCompleted startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1524811688369addons.managerDEBUGStarting provider: <unnamed-provider>
+1524811688369addons.managerDEBUGRegistering shutdown blocker for <unnamed-provider>
+1524811688371addons.managerDEBUGProvider finished startup: <unnamed-provider>
+1524811689233DeferredSave.extensions.jsonDEBUGWrite succeeded
+1524811689234addons.xpi-utilsDEBUGXPI Database saved, setting schema version preference to 17
+1524811689235DeferredSave.extensions.jsonDEBUGStarting timer
+1524811689265DeferredSave.extensions.jsonDEBUGStarting write
+1524811689312addons.repositoryDEBUGNo addons.json found.
+1524811689313DeferredSave.addons.jsonDEBUGSave changes
+1524811689322DeferredSave.addons.jsonDEBUGStarting timer
+1524811689437addons.managerDEBUGStarting provider: PreviousExperimentProvider
+1524811689437addons.managerDEBUGRegistering shutdown blocker for PreviousExperimentProvider
+1524811689439addons.managerDEBUGProvider finished startup: PreviousExperimentProvider
+1524811689455DeferredSave.addons.jsonDEBUGStarting write
+1524811689485DeferredSave.extensions.jsonDEBUGWrite succeeded
+1524811689903DeferredSave.addons.jsonDEBUGWrite succeeded
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0 (t=24.1812) [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'USER-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+dUpdates":1,"skinnable":true,"size":21152,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"50.0.1","maxVersion":"50.0.1"}],"targetPlatforms":[],"seen":true}
+1524811686375addons.xpiDEBUGgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1524811686378DeferredSave.extensions.jsonDEBUGSave changes
+1524811686379addons.xpiDEBUGUpdating database with changes to installed add-ons
+1524811686379addons.xpi-utilsDEBUGUpdating add-on states
+1524811686381addons.xpi-utilsDEBUGWriting add-ons list
+1524811686388addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1524811686390addons.xpiDEBUGCalling bootstrap method startup on aushelper@mozilla.org version 1.0
+1524811686393addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1524811686395addons.xpiDEBUGCalling bootstrap method startup on e10srollout@mozilla.org version 1.5
+1524811686396addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1524811686399addons.xpiDEBUGCalling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1524811686402addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1524811686403addons.xpiDEBUGCalling bootstrap method startup on webcompat@mozilla.org version 1.0
+1524811686409addons.managerDEBUGRegistering shutdown blocker for XPIProvider
+1524811686413addons.managerDEBUGProvider finished startup: XPIProvider
+1524811686415addons.managerDEBUGStarting provider: LightweightThemeManager
+1524811686416addons.managerDEBUGRegistering shutdown blocker for LightweightThemeManager
+1524811686417addons.managerDEBUGProvider finished startup: LightweightThemeManager
+1524811686419addons.managerDEBUGStarting provider: GMPProvider
+1524811686444addons.managerDEBUGRegistering shutdown blocker for GMPProvider
+1524811686445addons.managerDEBUGProvider finished startup: GMPProvider
+1524811686446addons.managerDEBUGStarting provider: PluginProvider
+1524811686450addons.managerDEBUGRegistering shutdown blocker for PluginProvider
+1524811686451addons.managerDEBUGProvider finished startup: PluginProvider
+1524811686453addons.managerDEBUGCompleted startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1524811688369addons.managerDEBUGStarting provider: <unnamed-provider>
+1524811688369addons.managerDEBUGRegistering shutdown blocker for <unnamed-provider>
+1524811688371addons.managerDEBUGProvider finished startup: <unnamed-provider>
+1524811689233DeferredSave.extensions.jsonDEBUGWrite succeeded
+1524811689234addons.xpi-utilsDEBUGXPI Database saved, setting schema version preference to 17
+1524811689235DeferredSave.extensions.jsonDEBUGStarting timer
+1524811689265DeferredSave.extensions.jsonDEBUGStarting write
+1524811689312addons.repositoryDEBUGNo addons.json found.
+1524811689313DeferredSave.addons.jsonDEBUGSave changes
+1524811689322DeferredSave.addons.jsonDEBUGStarting timer
+1524811689437addons.managerDEBUGStarting provider: PreviousExperimentProvider
+1524811689437addons.managerDEBUGRegistering shutdown blocker for PreviousExperimentProvider
+1524811689439addons.managerDEBUGProvider finished startup: PreviousExperimentProvider
+1524811689455DeferredSave.addons.jsonDEBUGStarting write
+1524811689485DeferredSave.extensions.jsonDEBUGWrite succeeded
+1524811689903DeferredSave.addons.jsonDEBUGWrite succeeded
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0 (t=24.1812) [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'USER-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+at TestNG11.CreateUser.setUp(CreateUser.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+dUpdates":1,"skinnable":true,"size":21152,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"50.0.1","maxVersion":"50.0.1"}],"targetPlatforms":[],"seen":true}
+1524811686375addons.xpiDEBUGgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1524811686378DeferredSave.extensions.jsonDEBUGSave changes
+1524811686379addons.xpiDEBUGUpdating database with changes to installed add-ons
+1524811686379addons.xpi-utilsDEBUGUpdating add-on states
+1524811686381addons.xpi-utilsDEBUGWriting add-ons list
+1524811686388addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1524811686390addons.xpiDEBUGCalling bootstrap method startup on aushelper@mozilla.org version 1.0
+1524811686393addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1524811686395addons.xpiDEBUGCalling bootstrap method startup on e10srollout@mozilla.org version 1.5
+1524811686396addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1524811686399addons.xpiDEBUGCalling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1524811686402addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1524811686403addons.xpiDEBUGCalling bootstrap method startup on webcompat@mozilla.org version 1.0
+1524811686409addons.managerDEBUGRegistering shutdown blocker for XPIProvider
+1524811686413addons.managerDEBUGProvider finished startup: XPIProvider
+1524811686415addons.managerDEBUGStarting provider: LightweightThemeManager
+1524811686416addons.managerDEBUGRegistering shutdown blocker for LightweightThemeManager
+1524811686417addons.managerDEBUGProvider finished startup: LightweightThemeManager
+1524811686419addons.managerDEBUGStarting provider: GMPProvider
+1524811686444addons.managerDEBUGRegistering shutdown blocker for GMPProvider
+1524811686445addons.managerDEBUGProvider finished startup: GMPProvider
+1524811686446addons.managerDEBUGStarting provider: PluginProvider
+1524811686450addons.managerDEBUGRegistering shutdown blocker for PluginProvider
+1524811686451addons.managerDEBUGProvider finished startup: PluginProvider
+1524811686453addons.managerDEBUGCompleted startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1524811688369addons.managerDEBUGStarting provider: <unnamed-provider>
+1524811688369addons.managerDEBUGRegistering shutdown blocker for <unnamed-provider>
+1524811688371addons.managerDEBUGProvider finished startup: <unnamed-provider>
+1524811689233DeferredSave.extensions.jsonDEBUGWrite succeeded
+1524811689234addons.xpi-utilsDEBUGXPI Database saved, setting schema version preference to 17
+1524811689235DeferredSave.extensions.jsonDEBUGStarting timer
+1524811689265DeferredSave.extensions.jsonDEBUGStarting write
+1524811689312addons.repositoryDEBUGNo addons.json found.
+1524811689313DeferredSave.addons.jsonDEBUGSave changes
+1524811689322DeferredSave.addons.jsonDEBUGStarting timer
+1524811689437addons.managerDEBUGStarting provider: PreviousExperimentProvider
+1524811689437addons.managerDEBUGRegistering shutdown blocker for PreviousExperimentProvider
+1524811689439addons.managerDEBUGProvider finished startup: PreviousExperimentProvider
+1524811689455DeferredSave.addons.jsonDEBUGStarting write
+1524811689485DeferredSave.extensions.jsonDEBUGWrite succeeded
+1524811689903DeferredSave.addons.jsonDEBUGWrite succeeded
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0 (t=24.1812) [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+
+at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+... 33 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="testCreateuser()[pri:0, instance:TestNG11.CreateUser@11053e1]" name="testCreateuser" duration-ms="0" started-at="2018-04-27T06:48:51Z" finished-at="2018-04-27T06:48:51Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+dUpdates":1,"skinnable":true,"size":21152,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"50.0.1","maxVersion":"50.0.1"}],"targetPlatforms":[],"seen":true}
+1524811686375addons.xpiDEBUGgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1524811686378DeferredSave.extensions.jsonDEBUGSave changes
+1524811686379addons.xpiDEBUGUpdating database with changes to installed add-ons
+1524811686379addons.xpi-utilsDEBUGUpdating add-on states
+1524811686381addons.xpi-utilsDEBUGWriting add-ons list
+1524811686388addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1524811686390addons.xpiDEBUGCalling bootstrap method startup on aushelper@mozilla.org version 1.0
+1524811686393addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1524811686395addons.xpiDEBUGCalling bootstrap method startup on e10srollout@mozilla.org version 1.5
+1524811686396addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1524811686399addons.xpiDEBUGCalling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1524811686402addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1524811686403addons.xpiDEBUGCalling bootstrap method startup on webcompat@mozilla.org version 1.0
+1524811686409addons.managerDEBUGRegistering shutdown blocker for XPIProvider
+1524811686413addons.managerDEBUGProvider finished startup: XPIProvider
+1524811686415addons.managerDEBUGStarting provider: LightweightThemeManager
+1524811686416addons.managerDEBUGRegistering shutdown blocker for LightweightThemeManager
+1524811686417addons.managerDEBUGProvider finished startup: LightweightThemeManager
+1524811686419addons.managerDEBUGStarting provider: GMPProvider
+1524811686444addons.managerDEBUGRegistering shutdown blocker for GMPProvider
+1524811686445addons.managerDEBUGProvider finished startup: GMPProvider
+1524811686446addons.managerDEBUGStarting provider: PluginProvider
+1524811686450addons.managerDEBUGRegistering shutdown blocker for PluginProvider
+1524811686451addons.managerDEBUGProvider finished startup: PluginProvider
+1524811686453addons.managerDEBUGCompleted startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1524811688369addons.managerDEBUGStarting provider: <unnamed-provider>
+1524811688369addons.managerDEBUGRegistering shutdown blocker for <unnamed-provider>
+1524811688371addons.managerDEBUGProvider finished startup: <unnamed-provider>
+1524811689233DeferredSave.extensions.jsonDEBUGWrite succeeded
+1524811689234addons.xpi-utilsDEBUGXPI Database saved, setting schema version preference to 17
+1524811689235DeferredSave.extensions.jsonDEBUGStarting timer
+1524811689265DeferredSave.extensions.jsonDEBUGStarting write
+1524811689312addons.repositoryDEBUGNo addons.json found.
+1524811689313DeferredSave.addons.jsonDEBUGSave changes
+1524811689322DeferredSave.addons.jsonDEBUGStarting timer
+1524811689437addons.managerDEBUGStarting provider: PreviousExperimentProvider
+1524811689437addons.managerDEBUGRegistering shutdown blocker for PreviousExperimentProvider
+1524811689439addons.managerDEBUGProvider finished startup: PreviousExperimentProvider
+1524811689455DeferredSave.addons.jsonDEBUGStarting write
+1524811689485DeferredSave.extensions.jsonDEBUGWrite succeeded
+1524811689903DeferredSave.addons.jsonDEBUGWrite succeeded
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0 (t=24.1812) [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'USER-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+dUpdates":1,"skinnable":true,"size":21152,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"50.0.1","maxVersion":"50.0.1"}],"targetPlatforms":[],"seen":true}
+1524811686375addons.xpiDEBUGgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1524811686378DeferredSave.extensions.jsonDEBUGSave changes
+1524811686379addons.xpiDEBUGUpdating database with changes to installed add-ons
+1524811686379addons.xpi-utilsDEBUGUpdating add-on states
+1524811686381addons.xpi-utilsDEBUGWriting add-ons list
+1524811686388addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1524811686390addons.xpiDEBUGCalling bootstrap method startup on aushelper@mozilla.org version 1.0
+1524811686393addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1524811686395addons.xpiDEBUGCalling bootstrap method startup on e10srollout@mozilla.org version 1.5
+1524811686396addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1524811686399addons.xpiDEBUGCalling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1524811686402addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1524811686403addons.xpiDEBUGCalling bootstrap method startup on webcompat@mozilla.org version 1.0
+1524811686409addons.managerDEBUGRegistering shutdown blocker for XPIProvider
+1524811686413addons.managerDEBUGProvider finished startup: XPIProvider
+1524811686415addons.managerDEBUGStarting provider: LightweightThemeManager
+1524811686416addons.managerDEBUGRegistering shutdown blocker for LightweightThemeManager
+1524811686417addons.managerDEBUGProvider finished startup: LightweightThemeManager
+1524811686419addons.managerDEBUGStarting provider: GMPProvider
+1524811686444addons.managerDEBUGRegistering shutdown blocker for GMPProvider
+1524811686445addons.managerDEBUGProvider finished startup: GMPProvider
+1524811686446addons.managerDEBUGStarting provider: PluginProvider
+1524811686450addons.managerDEBUGRegistering shutdown blocker for PluginProvider
+1524811686451addons.managerDEBUGProvider finished startup: PluginProvider
+1524811686453addons.managerDEBUGCompleted startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1524811688369addons.managerDEBUGStarting provider: <unnamed-provider>
+1524811688369addons.managerDEBUGRegistering shutdown blocker for <unnamed-provider>
+1524811688371addons.managerDEBUGProvider finished startup: <unnamed-provider>
+1524811689233DeferredSave.extensions.jsonDEBUGWrite succeeded
+1524811689234addons.xpi-utilsDEBUGXPI Database saved, setting schema version preference to 17
+1524811689235DeferredSave.extensions.jsonDEBUGStarting timer
+1524811689265DeferredSave.extensions.jsonDEBUGStarting write
+1524811689312addons.repositoryDEBUGNo addons.json found.
+1524811689313DeferredSave.addons.jsonDEBUGSave changes
+1524811689322DeferredSave.addons.jsonDEBUGStarting timer
+1524811689437addons.managerDEBUGStarting provider: PreviousExperimentProvider
+1524811689437addons.managerDEBUGRegistering shutdown blocker for PreviousExperimentProvider
+1524811689439addons.managerDEBUGProvider finished startup: PreviousExperimentProvider
+1524811689455DeferredSave.addons.jsonDEBUGStarting write
+1524811689485DeferredSave.extensions.jsonDEBUGWrite succeeded
+1524811689903DeferredSave.addons.jsonDEBUGWrite succeeded
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0 (t=24.1812) [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'USER-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+at TestNG11.CreateUser.setUp(CreateUser.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+dUpdates":1,"skinnable":true,"size":21152,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"50.0.1","maxVersion":"50.0.1"}],"targetPlatforms":[],"seen":true}
+1524811686375addons.xpiDEBUGgetModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1524811686378DeferredSave.extensions.jsonDEBUGSave changes
+1524811686379addons.xpiDEBUGUpdating database with changes to installed add-ons
+1524811686379addons.xpi-utilsDEBUGUpdating add-on states
+1524811686381addons.xpi-utilsDEBUGWriting add-ons list
+1524811686388addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1524811686390addons.xpiDEBUGCalling bootstrap method startup on aushelper@mozilla.org version 1.0
+1524811686393addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1524811686395addons.xpiDEBUGCalling bootstrap method startup on e10srollout@mozilla.org version 1.5
+1524811686396addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1524811686399addons.xpiDEBUGCalling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1524811686402addons.xpiDEBUGRegistering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1524811686403addons.xpiDEBUGCalling bootstrap method startup on webcompat@mozilla.org version 1.0
+1524811686409addons.managerDEBUGRegistering shutdown blocker for XPIProvider
+1524811686413addons.managerDEBUGProvider finished startup: XPIProvider
+1524811686415addons.managerDEBUGStarting provider: LightweightThemeManager
+1524811686416addons.managerDEBUGRegistering shutdown blocker for LightweightThemeManager
+1524811686417addons.managerDEBUGProvider finished startup: LightweightThemeManager
+1524811686419addons.managerDEBUGStarting provider: GMPProvider
+1524811686444addons.managerDEBUGRegistering shutdown blocker for GMPProvider
+1524811686445addons.managerDEBUGProvider finished startup: GMPProvider
+1524811686446addons.managerDEBUGStarting provider: PluginProvider
+1524811686450addons.managerDEBUGRegistering shutdown blocker for PluginProvider
+1524811686451addons.managerDEBUGProvider finished startup: PluginProvider
+1524811686453addons.managerDEBUGCompleted startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1524811688369addons.managerDEBUGStarting provider: <unnamed-provider>
+1524811688369addons.managerDEBUGRegistering shutdown blocker for <unnamed-provider>
+1524811688371addons.managerDEBUGProvider finished startup: <unnamed-provider>
+1524811689233DeferredSave.extensions.jsonDEBUGWrite succeeded
+1524811689234addons.xpi-utilsDEBUGXPI Database saved, setting schema version preference to 17
+1524811689235DeferredSave.extensions.jsonDEBUGStarting timer
+1524811689265DeferredSave.extensions.jsonDEBUGStarting write
+1524811689312addons.repositoryDEBUGNo addons.json found.
+1524811689313DeferredSave.addons.jsonDEBUGSave changes
+1524811689322DeferredSave.addons.jsonDEBUGStarting timer
+1524811689437addons.managerDEBUGStarting provider: PreviousExperimentProvider
+1524811689437addons.managerDEBUGRegistering shutdown blocker for PreviousExperimentProvider
+1524811689439addons.managerDEBUGProvider finished startup: PreviousExperimentProvider
+1524811689455DeferredSave.addons.jsonDEBUGStarting write
+1524811689485DeferredSave.extensions.jsonDEBUGWrite succeeded
+1524811689903DeferredSave.addons.jsonDEBUGWrite succeeded
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0 (t=24.1812) [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+
+at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+... 33 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateuser -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:TestNG11.CreateUser@11053e1]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-27T06:48:51Z" finished-at="2018-04-27T06:48:51Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at TestNG11.CreateUser.tearDown(CreateUser.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG11.CreateUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

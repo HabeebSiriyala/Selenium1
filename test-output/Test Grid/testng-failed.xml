@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Grid]" parallel="tests">
+  <test thread-count="5" name="Test Node1(failed)" parallel="tests">
+    <classes>
+      <class name="Grid.Node1">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Grid.Node1 -->
+    </classes>
+  </test> <!-- Test Node1(failed) -->
+  <test thread-count="5" name="Test Node2(failed)" parallel="tests">
+    <classes>
+      <class name="Grid.Node2">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Grid.Node2 -->
+    </classes>
+  </test> <!-- Test Node2(failed) -->
+</suite> <!-- Failed suite [Test Grid] -->
